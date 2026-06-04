@@ -1,8 +1,10 @@
+import Navigationbar from "./Navigationbar"
+
 const Homepage = () => {
     return (
         <>
 
-
+            <Navigationbar />
 
         </>
     );

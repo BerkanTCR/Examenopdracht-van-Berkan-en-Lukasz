@@ -1,9 +1,9 @@
 const Documentatie = () => {
-    return ( 
+    return (
         <>
-        
+
         </>
-     );
+    );
 }
- 
+
 export default Documentatie;
