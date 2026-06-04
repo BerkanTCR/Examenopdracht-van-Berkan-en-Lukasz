@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage.jsx";
 import Documentatie from "./pages/Documentatie.jsx";
 import Downloaden from "./pages/Downloaden.jsx";
 import NoPage from "./pages/NoPage.jsx";
+import './App.css'
 
 const App = () => {
     return (
@@ -12,10 +13,13 @@ const App = () => {
             <BrowserRouter>
 
                 <Routes>
-                    <Route index element={<Homepage />} />
-                    <Route path="/documentatie" element={<Documentatie />} />
-                    <Route path="/downloaden" element={<Downloaden />} />
-                    <Route path="*" element={<NoPage />} />
+                    <Route path="/" element={<Navigationbar/>}>
+                        <Route index element={<Homepage />} />
+                        <Route path="/documentatie" element={<Documentatie />} />
+                        <Route path="/downloaden" element={<Downloaden />} />
+                        <Route path="*" element={<NoPage />} />
+
+                    </Route>
                 </Routes>
             </BrowserRouter>
 
