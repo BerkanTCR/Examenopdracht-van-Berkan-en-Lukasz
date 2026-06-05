@@ -1,6 +1,10 @@
+import Navigationbar from "./Navigationbar";
+
 const Documentatie = () => {
     return (
         <>
+
+            <Navigationbar />
 
         </>
     );
