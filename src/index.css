@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1c1c;
+    height: 100px;
+    width: 100%;
+    font-weight: 300;
+}
+
+.unordered-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.unordered-list li {
+    padding: 50px;
+}
+
+.unordered-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.unordered-list li a:hover {
+    color: #61DAFB;
+}
+
+.logo-title-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-title-container h2 {
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    margin: 50px;
+
+}
+
+.logo-title-container img {
+    width: 70px;
+    height: 70px;
+}
+
+.searchbar-container {
+    display: flex;
+    height: 30px;
+    width: 210px;
+}
+
+.searchbar-container input {
+    background-color: #373940;
+    border: none;
+}
+
+.searchbar-container img {
+    width: 10px;
+    height: 10px;
+}
+
+.highlighted-react {
+    color: #61DAFB;
+}
+
+.berkan-logo {
+    border: 1px solid hsla(0, 0%, 50%, .159);
+}
+
+.nopage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nopage-container h1 {
+    font-weight: 400;
+}
+
+.nopage-container p {
+    font-weight: 400;
+}
