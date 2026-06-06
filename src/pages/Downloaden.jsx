@@ -1,9 +1,7 @@
-import Navigationbar from "./Navigationbar";
-
 const Downloaden = () => {
     return (
         <>
-            <Navigationbar />
+        
         </>
     );
 }
