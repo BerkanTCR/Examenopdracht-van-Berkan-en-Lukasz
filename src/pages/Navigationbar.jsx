@@ -17,7 +17,7 @@ const Navigationbar = () => {
                 </ul>
 
                 <div className="searchbar-container">
-                    <img className="search-icon" src="./src/assets/search-icon.png" alt="Zoeken"/>
+
                     <input type="text" placeholder="Zoeken..."/>
                 </div>
 
