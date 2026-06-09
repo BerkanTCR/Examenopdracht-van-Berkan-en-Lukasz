@@ -17,11 +17,7 @@ const Navigationbar = () => {
                 </ul>
 
                 <div className="searchbar-container">
-<<<<<<< Updated upstream
                     <button type="submit"><img src="/src/assets/search-icon.png" alt="" /></button>
-=======
-
->>>>>>> Stashed changes
                     <input type="text" placeholder="Zoeken..." />
                 </div>
 
