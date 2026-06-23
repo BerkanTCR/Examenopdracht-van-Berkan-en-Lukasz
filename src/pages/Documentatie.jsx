@@ -19,7 +19,6 @@ const Documentatie = () => {
         <main>
 
 
-
             <section className="doc-container">
 
                 <h2 className="doc-h2">React leren!</h2>
