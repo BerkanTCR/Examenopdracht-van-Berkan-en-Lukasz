@@ -36,11 +36,16 @@ const Documentatie = () => {
 
             <section className="doc-container">
 
+<<<<<<< Updated upstream
                 <h2>React leren</h2>
                 <p>Welkom op de documentatiepagina! Hier leer je de belangrijkste onderdelen van React en hoe je deze gebruikt om interactieve webapplicaties te bouwen.</p>
                 <h3>Wat is react</h3>
                 <p>React is een JavaScript-library waarmee je gebruikersinterfaces (UI) kunt bouwen voor webapplicaties. Het wordt vooral gebruikt om interactieve en dynamische websites te maken.</p>
 
+=======
+                <h1 className="doc-h2">React leren!</h1>
+                <p className="doc-p">Welkom op de documentatiepagina! Hier leer je de belangrijkste onderdelen van React en hoe je deze gebruikt om interactieve webapplicaties te bouwen.</p>
+>>>>>>> Stashed changes
                 <section className="cardcontainer">
 
                     {showData.map((d, index) => (
