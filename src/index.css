@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1c1c1c;
-    height: 150;
+    height: 100px;
     width: 100%;
     font-weight: 300;
     width: 100vw;
@@ -69,7 +69,6 @@ body {
     width: 166px;
     padding: 50px;
     padding-left: 275px
-
 }
 
 .searchbar-container input {
@@ -124,15 +123,16 @@ body {
 
 .suggestions {
     position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    text-align: center;
+    top: 72%;
+    left: 50%;
     background: white;
     border: 1px solid #ddd;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-left: 45px;
+    width: 199px;
     z-index: 10;
+    border-radius: 5px;
 }
 
 .suggestions li {
@@ -192,12 +192,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(/Examenopdracht-van-Berkan-en-Lukasz/assets/images/pattern.png);
+    background-image: url('/assets/images/pattern.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
-    width: 100vw;
+    width: 100%;
     color: white;
 }
 
@@ -389,7 +389,7 @@ body {
     height: 51vh;
     width: 80vw;
     margin: 0 auto;
-
+    
 }
 
 .download-h1-container {
@@ -413,7 +413,7 @@ body {
     font-size: 22px;
     line-height: 35px;
     font-weight: lighter;
-
+    padding-left: 25px;
 }
 
 .nodejs-logo-container {
@@ -423,7 +423,7 @@ body {
 }
 
 .nodejs-logo-container img {
-    height: 70%;
+    height: 80%;
     padding-top: 30px;
     padding-left: 150px;
 }
@@ -644,6 +644,34 @@ ul {
    RESPONSIVE AANPASSINGEN
    Alleen actief onder 1200px
    ========================================= */
+
+   @media (max-width: 600px) {
+    .suggestions {
+        top: 100%;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .suggestions li {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .suggestions {
+        width: 100%;
+    }
+
+    .suggestions li {
+        padding: 9px 12px;
+        font-size: 14px;
+    }
+}
 
 
 /* Kleinere desktop / laptop */
@@ -877,9 +905,11 @@ ul {
     }
 
     .hero-container {
-        height: auto;
-        min-height: 400px;
-        padding: 35px 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .hero-container img {
@@ -889,12 +919,16 @@ ul {
 
     .hero-container h1 {
         font-size: 45px;
+        text-align: center;
     }
 
     .hero-container p {
-        font-size: 20px;
-        line-height: 1.5;
+        width: 100%;
+        max-width: 600px;
+        box-sizing: border-box;
+        padding: 0 20px;
         text-align: center;
+        font-size: 28px;
     }
 
     .hero-container-2 {
@@ -1033,6 +1067,7 @@ ul {
         width: 100%;
         height: 55px;
         font-size: 20px;
+        margin-top: 50px;
         margin-bottom: 50px;
     }
 
